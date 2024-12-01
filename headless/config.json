@@ -1,0 +1,17 @@
+{
+  "data": {
+    "input_data_path": "/code/headless/data",
+    "output_data_path": "/code/headless/processed_data"
+  },
+  "inference": {
+    "model_path": "/code/headless/models/grande.pth",
+    "index_path": "code/headless/models/grande.index",
+    "f0_method": "crepe",
+    "f0_up_key": 18,
+    "index_rate": 0.75,
+    "filter_radius": 12,
+    "resample_sr": 7,
+    "rms_mix_rate": 0.25,
+    "protect": 0.33
+  }
+}
